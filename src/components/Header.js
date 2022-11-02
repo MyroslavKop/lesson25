@@ -1,10 +1,10 @@
 import {NavLink} from "react-router-dom";
-import Logo from "../assets/logo.svg";
+import logo from "../assets/logo.svg";
 
 const Header = () => {
     return (
         <header className="header container">
-            <img src={Logo} alt="Logo"/>
+            <img src={logo} alt="Logo"/>
             <nav>
                 <ul className="navbar">
                     <li><NavLink className={({isActive}) => (isActive ? "active" : "")} to="/" end>Home</NavLink>
